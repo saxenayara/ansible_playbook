@@ -1,6 +1,6 @@
 ---
 - name: Install and start HTTPD
-  hosts: webservers
+  hosts: all
   become: yes
   tasks:
     - name: Install HTTPD package
