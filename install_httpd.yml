@@ -6,7 +6,7 @@
     - name: Install HTTPD package
       yum:
         name: httpd
-        state: present
+        state: absent
 
     - name: Ensure HTTPD is running and enabled
       service:
